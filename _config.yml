@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/"
 url: "https://webio.terrychan.org/"
 # permalink: /:year/:month/:day/:title
-permalink: /:title
+permalink: /post/:title
 repository: ShawnTeoh/matjek
 paginate: 5
 
@@ -27,7 +27,7 @@ paginate: 5
 github_profile: "https://github.com/napoler"
 user: "Terry Chan"
 user_email: ""
-contact_url: "https://goo.gl/tVljbV"
+contact_url: "https://github.com/napoler"
 google_tracking_id: "UA-96359860-1"
 google_site_verification: "UA-96359860-1"
 disqus_shortname: "matjek"
