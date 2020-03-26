@@ -18,8 +18,8 @@ description: > # this means to ignore newlines until "baseurl:"
   实验各种兴趣方案
 baseurl: "/"
 url: "https://webio.terrychan.org/"
-permalink: /post/:year-:month-:day-:title
-# permalink: /post/:title
+# permalink: /post/:year-:month-:day-:title
+permalink: /post/:title
 repository: ShawnTeoh/matjek
 paginate: 5
 
