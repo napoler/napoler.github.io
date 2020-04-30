@@ -7,7 +7,7 @@ css: ["index.css"]
   <div class="col s12">
     <div class="card hoverable">
       <div class="card-content">
-        <span id="post-title" class="card-title">{{post.title}}</span>
+        <a href="{{post.url | prepend: site.baseurl}}"> <span id="post-title" class="card-title">{{post.title}}</span>  </a>
         <p id="post-date">
           <i class="material-icons">date_range</i>
           {{post.date | date: "%d/%m/%Y %H:%M"}}
@@ -15,9 +15,9 @@ css: ["index.css"]
         <p id="post-content">{{post.excerpt | remove: '<p>' | remove: '</p>'}}</p>
       </div>
       <div class="card-action">
-        <a href="{{post.url | prepend: site.baseurl}}">
+        <!-- <a href="{{post.url | prepend: site.baseurl}}">
           Read More
-        </a>
+        </a> -->
       </div>
     </div>
   </div>
@@ -46,6 +46,7 @@ css: ["index.css"]
       {% endif %}
       </li>
       <!-- {% for count in (2..paginator.total_pages) %}
+      
       {% if count == paginator.page %}
       <li class="active teal"><a href="#!">{{count}}</a></li>
       {% else %}
