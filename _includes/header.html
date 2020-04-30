@@ -11,9 +11,11 @@
       {% endif %}
     </title>
     <link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}/assets/res/favicon.ico">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
-      <!-- <link rel="stylesheet" href="//7.maomihezi.com/npm/materialize-css@1.0.0/dist/css/materialize.min.css"> -->
-    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css"> -->
+      <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/materialize-css@1.0.0/dist/css/materialize.min.css">
+    <!-- <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons"> -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@material-icons/font@1.0.0/css/all.css">
+    
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
     {% for css in layout.css %}
     {% if css contains "//" %}
