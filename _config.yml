@@ -17,17 +17,17 @@ title: Terry's io labs
 description: > # this means to ignore newlines until "baseurl:"
   实验各种兴趣方案
 baseurl: "/"
-url: "https://webio.terrychan.org/"
+url: "https://www.terrychan.org/"
 permalink: /post/:year-:month-:day-:title
 # permalink: /post/:title
 repository: ShawnTeoh/matjek
 paginate: 5
 
 # MatJek specific configurations
-github_profile: "https://github.com/napoler"
+# github_profile: "https://github.com/napoler"
 user: "Terry Chan"
 user_email: ""
-contact_url: "https://github.com/napoler"
+# contact_url: "https://github.com/napoler"
 google_tracking_id: "UA-17239407-23"
 google_site_verification: "UA-17239407-23"
 disqus_shortname: "https-www-terrychan-org"
