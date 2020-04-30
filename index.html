@@ -39,14 +39,17 @@ css: ["index.css"]
       </li>
       {% if paginator.page == 1 %}
       <li class="active teal">
-        <a href="#!">1</a>
+        <a href="#!">1</a>/      {{ paginator.total_pages }}
       {% else %}
       <li class="waves-effect">
-        <a href="{{site.baseurl}}/">1</a>
+        <a href="{{site.baseurl}}/">{{paginator.page}}</a>/      {{ paginator.total_pages }}
       {% endif %}
       </li>
+
+
+
       <!-- {% for count in (2..paginator.total_pages) %}
-      
+
       {% if count == paginator.page %}
       <li class="active teal"><a href="#!">{{count}}</a></li>
       {% else %}
