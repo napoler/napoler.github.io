@@ -1,52 +1,6 @@
 ---
 layout: post
 title: 'react-native-splash-screen编译出现错误解决方案'
-permalink: '/2018/07/react-native-splash-screen_24.html'
-comments: 1
-categories: Default
-tags: 默认
-comments: 1
----
-react-native-splash-screen安装时候出现类似错误  
-https://github.com/crazycodeboy/react-native-splash-screen
-
->  
-> :app:processDebugManifest  
-> :app:processDebugResources  
-> /Users/jiangsong/git/apps/test1/yichangqiusai/android/app/build/intermediates/res/merged/debug/values-v24/values-v24.xml:3: AAPT: Error retrieving parent for item: No resource found that matches the given name ‘android:TextAppearance.Material.Widget.Button.Borderless.Colored’.  
-> /Users/jiangsong/git/apps/test1/yichangqiusai/android/app/build/intermediates/res/merged/debug/values-v24/values-v24.xml:4: AAPT: Error retrieving parent for item: No resource found that matches the given name ‘android:TextAppearance.Material.Widget.Button.Colored’.  
-> /Users/jiangsong/git/apps/test1/yichangqiusai/android/app/build/intermediates/res/merged/debug/values-v26/values-v26.xml:15:21-54: AAPT: Noresource found that matches the given name: attr ‘android:keyboardNavigationCluster’.  
-> /Users/jiangsong/git/apps/test1/yichangqiusai/android/app/build/intermediates/res/merged/debug/values-v24/values-v24.xml:3: error: Error retrieving parent for item: No resource found that matches the given name ‘android:TextAppearance.Material.Widget.Button.Borderless.Colored’.  
-> /Users/jiangsong/git/apps/test1/yichangqiusai/android/app/build/intermediates/res/merged/debug/values-v24/values-v24.xml:4: error: Error retrieving parent for item: No resource found that matches the given name ‘android:TextAppearance.Material.Widget.Button.Colored’.  
-> /Users/jiangsong/git/apps/test1/yichangqiusai/android/app/build/intermediates/res/merged/debug/values-v26/values-v26.xml:15: error: Error: No resource found that matches the given name: attr ‘android:keyboardNavigationCluster’.
-> 
-
-&nbsp;卸载`` react-native-splash-screen `` 
-
->  
-> `` npm uninstall react-native-splash-screen ``&nbsp;
-> 
-
-安装 `` 3.0.9 ``版本
-
->  
-> `` npm install --save react-native-splash-screen@3.0.9 ``&nbsp;
-> 
-
-之后重新编译即可。
-
-另外  
-package.json文件中
-
->  
-> dependencies{  
-> “react-native-splash-screen”: “3.0.9”,   
-> } 
-> 
-
-去掉“^”，防止自动升级。---
-layout: post
-title: 'react-native-splash-screen编译出现错误解决方案'
 permalink: '/2018/07/react-native-splash-screen.html'
 comments: 1
 categories: Default

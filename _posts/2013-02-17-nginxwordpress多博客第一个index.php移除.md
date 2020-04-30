@@ -1,19 +1,6 @@
 ---
 layout: post
 title: 'nginx wordpress多博客第一个index.php移除'
-permalink: '/2013/02/nginx-wordpressindexphp_17.html'
-comments: 1
-categories: Default
-tags: 默认
-comments: 1
----
-<div dir="ltr"><b style="color:rgb(0,0,0);font-family:Arial;font-size:15px;text-indent:275px;font-weight:normal"><span style="background-color:transparent;vertical-align:baseline;white-space:pre-wrap">nginx</span><br/> <span style="background-color:transparent;vertical-align:baseline;white-space:pre-wrap"></span></b></div>
-
-wp-config.php
-
-<div><b style="color:rgb(0,0,0);font-family:Arial;font-size:15px;text-indent:275px;font-weight:normal"><br/> <span style="background-color:transparent;vertical-align:baseline;white-space:pre-wrap">define('MULTISITE', true);</span><br/><span style="background-color:transparent;vertical-align:baseline;white-space:pre-wrap">define('SUBDOMAIN_INSTALL', true);</span><br/> <span style="background-color:transparent;vertical-align:baseline;white-space:pre-wrap">改为</span><br/><span style="background-color:transparent;vertical-align:baseline;white-space:pre-wrap"></span><br/><span style="background-color:transparent;vertical-align:baseline;white-space:pre-wrap"></span><br/> <span style="background-color:transparent;vertical-align:baseline;white-space:pre-wrap">define('MULTISITE', true);</span><br/><span style="background-color:transparent;vertical-align:baseline;white-space:pre-wrap">define('SUBDOMAIN_INSTALL', false);</span><br/> <span style="background-color:transparent;vertical-align:baseline;white-space:pre-wrap"></span><br/><span style="background-color:transparent;vertical-align:baseline;white-space:pre-wrap">去自定义url删除index.php</span><br/><span style="background-color:transparent;vertical-align:baseline;white-space:pre-wrap">改回(如果不该回来可能会导致其他博客后台无法登录)</span><br/> <span style="background-color:transparent;vertical-align:baseline;white-space:pre-wrap"></span><br/><span style="background-color:transparent;vertical-align:baseline;white-space:pre-wrap">define('MULTISITE', true);</span><br/> <span style="background-color:transparent;vertical-align:baseline;white-space:pre-wrap">define('SUBDOMAIN_INSTALL', true);</span><br/><span style="background-color:transparent;vertical-align:baseline;white-space:pre-wrap"></span><br/> </b></div>---
-layout: post
-title: 'nginx wordpress多博客第一个index.php移除'
 permalink: '/2013/02/nginx-wordpressindexphp.html'
 comments: 1
 categories: Default

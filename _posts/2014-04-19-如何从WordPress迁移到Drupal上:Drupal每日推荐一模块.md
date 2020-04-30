@@ -1,31 +1,6 @@
 ---
 layout: post
 title: '如何从 WordPress迁移到Drupal上:Drupal每日推荐一模块'
-permalink: '/2014/04/wordpressdrupaldrupal_19.html'
-comments: 1
-categories: Default
-tags: wordpress 数据迁移 Drupal trackback
-comments: 1
----
-<div style="background-color: white; font-family: Arial, Verdana, sans-serif; font-size: 14px; line-height: 17px; text-align: justify;">需要的模块一个是trackback（wordpress导入的时候必需的）模块，另一个是wordpress_import模块</div>
-
-<div style="background-color: white; font-family: Arial, Verdana, sans-serif; font-size: 14px; line-height: 17px; text-align: justify;">trackback</div>
-
-<div style="background-color: white; font-family: Arial, Verdana, sans-serif; font-size: 14px; line-height: 17px; text-align: justify;">http://drupal.org/project/trackback</div>
-
-<div style="background-color: white; font-family: Arial, Verdana, sans-serif; font-size: 14px; line-height: 17px; text-align: justify;">WordPress import</div>
-
-<blockquote style="background-color: white; border-left-color: rgb(204, 204, 204); border-left-style: solid; border-left-width: 5px; font-family: Arial, Verdana, sans-serif; font-size: 14px; margin-left: 1.5em; padding-left: 5px; text-align: justify;"><div style="line-height: 17px;">This module imports a WordPress blog into Drupal from a WordPress eXtended RSS (WXR) file.</div></blockquote>
-
-<div style="background-color: white; font-family: Arial, Verdana, sans-serif; font-size: 14px; line-height: 17px; text-align: justify;"><a href="http://drupal.org/project/wordpress_import" style="color: black; font-weight: bold;">http://drupal.org/project/wordpress_import</a><br/>WordPress import 依赖的模块：<br/>Ctools</div>
-
-<div style="background-color: white; font-family: Arial, Verdana, sans-serif; font-size: 14px; line-height: 17px; text-align: justify;">下载:<a href="http://drupal.org/project/ctools" style="color: black; font-weight: bold;">http://drupal.org/project/ctools</a><br/>有了这个两个模块，从WP把数据导入drupal就非常方便了。不过导入完成后内容里的图片还用的是以前的绝对路径。于是，接着把图片手动传过去 了，然后去数据直接做了个update replace（update node_revisions set body = replace(body,’WP地址’,”),类似这样一句sql.)。</div>
-
-<h1 style="background-color: white; font-family: Arial, Verdana, sans-serif; font-size: 20px; margin: 15px 0px 2px; padding-bottom: 2px; text-align: justify;">WP2Drupal</h1>
-
-<blockquote style="background-color: white; border-left-color: rgb(204, 204, 204); border-left-style: solid; border-left-width: 5px; font-family: Arial, Verdana, sans-serif; font-size: 14px; margin-left: 1.5em; padding-left: 5px; text-align: justify;"><div style="line-height: 17px;"><strong>Due to its limited use I have not needed to use it in over a year. With my other obligations increasing I am making this module available for anyone to take over who has the time to continue working on it.</strong></div><div style="line-height: 17px;">With this module you can import your site from WordPress to a clean Drupal install. Please note that it has not been tested with anything newer than WordPress 2.6.</div><h3 style="margin: 0px 0px 5px;">Ancestory</h3><div style="line-height: 17px;">Originally created by&nbsp;<a href="http://drupal.org/user/59735" rel="nofollow" style="color: black; font-weight: bold;">Borken Bernard</a>&nbsp;for Drupal 4.7, it was updated to support Drupal 5 by&nbsp;<a href="http://teodorani.com/" rel="nofollow" style="color: black; font-weight: bold;">teodorani</a>&nbsp;and then upgraded to work with Drupal 6 by&nbsp;<a href="http://drupal.org/user/209451" rel="nofollow" style="color: black; font-weight: bold;">DenRaf</a>. This a continuation of DenRaf’s code from his blog&nbsp;<a href="http://www.denraf.be/content/wp2drupal-drupal-6-and-wordpress-23" rel="nofollow" style="color: black; font-weight: bold;">announcement on June 19th, 2008</a>.</div><div style="line-height: 17px;"><em>Note:</em>&nbsp;While the project has been available in versions for Drupal 5 and older, only Drupal 6 and newer will be supported.</div><h3 style="margin: 0px 0px 5px;">Goals</h3><div style="line-height: 17px;">The goals of the project are simple:</div><ul><li style="line-height: 17px;">Provide a method of importing a WordPress blog into Drupal.</li><li style="line-height: 17px;">Make it feature complete for all core WordPress data.</li><li style="line-height: 17px;">Make it easy to use.</li><li style="line-height: 17px;">Long term goal: merge it into an all-in-one migration tool, e.g. maybe&nbsp;<a href="http://drupal.org/project/migrate" rel="nofollow" style="color: black; font-weight: bold; text-decoration: none;">Migrate</a>.</li></ul><h3 style="margin: 0px 0px 5px;">In Comparison to WordPress_Import</h3><div style="line-height: 17px;">The&nbsp;<a href="http://drupal.org/project/wordpress_import/" rel="nofollow" style="color: black; font-weight: bold;">WordPress_Import</a>&nbsp;module work towards a similar goal, but there are several differences:</div><ul><li style="line-height: 17px;">WordPress_Import uses an WXR export file from WordPress whereas WP2Drupal interacts directly with the database.</li><li style="line-height: 17px;">WP2Import has greater flexibility with the import:<ul><li>You can use Path_Redirect to catch the old URLs but still use PathAuto to give them new URLs; GlobalRedirect will make it even more transparent</li><li>You can (optionally) clear out (truncate) existing content tables to start with a fresh copy of your content</li></ul></li><li style="line-height: 17px;">WordPress_Import is somewhat more user-friendly.</li></ul><div style="line-height: 17px;">Ultimately, though, WP2Drupal&nbsp;<em>should</em>&nbsp;be merged into a more useful all-in-one migration tool.</div></blockquote>---
-layout: post
-title: '如何从 WordPress迁移到Drupal上:Drupal每日推荐一模块'
 permalink: '/2014/04/wordpressdrupaldrupal.html'
 comments: 1
 categories: Default

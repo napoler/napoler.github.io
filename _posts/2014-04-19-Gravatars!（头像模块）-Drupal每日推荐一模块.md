@@ -1,29 +1,6 @@
 ---
 layout: post
 title: 'Gravatars!（头像模块）-Drupal每日推荐一模块'
-permalink: '/2014/04/gravatars-drupal_19.html'
-comments: 1
-categories: Default
-tags: drupal模块 Drupal Drupal每日推荐一模块 用户体验
-comments: 1
----
-<div style="background-color: white; font-family: Arial, Verdana, sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0cm; text-align: justify;">现在越来月web2.0,个性化的头像确实是个不错的选择.</div>
-
-<blockquote style="background-color: white; border-left-color: rgb(204, 204, 204); border-left-style: solid; border-left-width: 5px; font-family: Arial, Verdana, sans-serif; font-size: 14px; margin-left: 1.5em; padding-left: 5px; text-align: justify;"><div style="line-height: 17px; margin-bottom: 0cm;"><span style="font-family: 'Times New Roman', serif;"><span lang="en-US">Gravatars are globally recognized avatars, (an avatar being a small picture used to</span></span></div><div style="line-height: 17px; margin-bottom: 0cm;"><span style="font-family: 'Times New Roman', serif;"><span lang="en-US">represent a user when making comments or posts), and are very popular among</span></span></div><div style="line-height: 17px; margin-bottom: 0cm;"><span style="font-family: 'Times New Roman', serif;"><span lang="en-US">blogs and forums, with many blogs and popular forum systems supporting</span></span></div><div style="line-height: 17px; margin-bottom: 0cm;"><span style="font-family: 'Times New Roman', serif;"><span lang="en-US">gravatars. They enable users to use the same avatar across all socially-oriented</span></span></div><div style="line-height: 17px; margin-bottom: 0cm;"><span style="font-family: 'Times New Roman', serif;"><span lang="en-US">sites they use, should they wish to.</span></span></div><div style="line-height: 17px; margin-bottom: 0cm;"><span style="font-family: 'Times New Roman', serif;"><span lang="en-US"></span></span></div><div style="line-height: 17px; margin-bottom: 0cm;">What is a Gravatar?</div><div style="line-height: 17px; margin-bottom: 0cm;"></div><div style="line-height: 17px; margin-bottom: 0cm;">“A gravatar, or globally recognized avatar, is quite simply an 80×80 pixel avatar image that follows you from weblog to weblog appearing beside your name when you comment on gravatar enabled sites. Avatars help identify your posts on web forums, so why not on weblogs?”</div><div style="line-height: 17px; margin-bottom: 0cm;">From http://www.gravatar.com</div><div style="line-height: 17px; margin-bottom: 0cm;">Features</div><div style="line-height: 17px; margin-bottom: 0cm;">User roles can easily be assigned or denied permission to use Gravatars</div><div style="line-height: 17px; margin-bottom: 0cm;">Customizable picture size, maturity filter, and default pictures</div><div style="line-height: 17px; margin-bottom: 0cm;">Supports unique generated avatars: identicon, monsterid, and wavatar</div><div style="line-height: 17px;"><a href="http://napoler.ixiezi.com/node/445422" style="color: black; font-weight: bold;"><img alt="Gravatar Integration" class="image image-thumbnail" height="149" src="http://drupal.org/files/images/drupal-6_gravatar.thumbnail.png" style="border: none;" width="218"/></a></div><div style="line-height: 17px; margin-bottom: 0cm;">Users can disable Gravatar for their user picture or specify a custom Gravatar e-mail address for their account</div><div style="line-height: 17px; margin-bottom: 0cm;">How can you get involved?</div><div style="line-height: 17px; margin-bottom: 0cm;">Write a review for this module on drupalmodules.com</div><div style="line-height: 17px; margin-bottom: 0cm;">Help translate this module at localize.drupal.org</div><div style="line-height: 17px; margin-bottom: 0cm;">Report any bugs, feature requests, etc. in the issue tracker</div><div style="line-height: 17px; margin-bottom: 0cm;">Project Information</div><div style="line-height: 17px; margin-bottom: 0cm;">Maintenance status: Actively maintained</div><div style="line-height: 17px; margin-bottom: 0cm;">Module categories: Third-party Integration,</div><div style="line-height: 17px; margin-bottom: 0cm;">User Management</div><div style="line-height: 17px; margin-bottom: 0cm;">Reported installs: 1802 sites currently report using this module. View usage statistics.</div><div style="line-height: 17px; margin-bottom: 0cm;">Last modified: October 14, 2010</div></blockquote>
-
-<div style="background-color: white; font-family: Arial, Verdana, sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0cm; text-align: justify;">呵呵,于此类似功能的模块还真不在少数,以下列举几种</div>
-
-<div style="background-color: white; font-family: Arial, Verdana, sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0cm; text-align: justify;">Avatar Selection</div>
-
-<div style="background-color: white; font-family: Arial, Verdana, sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0cm; text-align: justify;">ImageField Avatar</div>
-
-<div style="background-color: white; font-family: Arial, Verdana, sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0cm; text-align: justify;">Avatar Approval</div>
-
-<div style="background-color: white; font-family: Arial, Verdana, sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0cm; text-align: justify;">Avatar Crop(利用JQuery的剪辑图像)</div>
-
-<div style="background-color: white; font-family: Arial, Verdana, sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0cm; text-align: justify;">Hierarchical Select Field Selector</div>---
-layout: post
-title: 'Gravatars!（头像模块）-Drupal每日推荐一模块'
 permalink: '/2014/04/gravatars-drupal.html'
 comments: 1
 categories: Default
