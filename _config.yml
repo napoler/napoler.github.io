@@ -21,7 +21,7 @@ url: "https://www.terrychan.org/"
 permalink: /post/:year-:month-:day-:title
 # permalink: /post/:title
 repository: ShawnTeoh/matjek
-paginate: 5
+paginate: 10
 
 # MatJek specific configurations
 # github_profile: "https://github.com/napoler"
