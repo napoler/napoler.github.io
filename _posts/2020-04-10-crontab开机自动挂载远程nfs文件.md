@@ -5,7 +5,6 @@ permalink: '/2020/04/crontabnfs.html'
 comments: 1
 categories: Default
 tags: nfs crontab
-comments: 1
 ---
 crontab -e  
 

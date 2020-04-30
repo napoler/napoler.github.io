@@ -5,7 +5,6 @@ permalink: '/2020/04/dietpi-debian-linux.html'
 comments: 1
 categories: Default
 tags: arm bt DietPi Bt资源聚合 debian Medusa Transmission 美杜莎 CouchPotato Jackett
-comments: 1
 ---
 DietPi是一款极其轻巧的Debian OS，系统只有400MB多，很轻量级。  
 设置swap，超频什么都全部集成了，另外还自带了一个很不错的应用商店，树莓派里那些常用的应用基本都自带了。  

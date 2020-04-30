@@ -5,7 +5,6 @@ permalink: '/2020/03/pytorchreformer.html'
 comments: 1
 categories: Default
 tags: 自然语言 nlg pytorch reformer nlp
-comments: 1
 ---
 <span style='background-color: white; color: #24292e; font-family: , "blinkmacsystemfont" , "segoe ui" , "helvetica" , "arial" , sans-serif , "apple color emoji" , "segoe ui emoji"; font-size: 16px;'>Transformer很强大但是消耗资源有点多，还好google又搞出来了</span><span style='color: #24292e; font-family: , "blinkmacsystemfont" , "segoe ui" , "helvetica" , "arial" , sans-serif , "apple color emoji" , "segoe ui emoji";'>reformer在资源消耗上做了很大的优化，这也让我们能够以更小的代价进行尝试，毕竟GPU真的不便宜。</span>  
 <span style='color: #24292e; font-family: , "blinkmacsystemfont" , "segoe ui" , "helvetica" , "arial" , sans-serif , "apple color emoji" , "segoe ui emoji";'>  

@@ -5,7 +5,6 @@ permalink: '/2020/04/elasticsearchpython.html'
 comments: 1
 categories: Default
 tags: 搜索 Elasticsearch python
-comments: 1
 ---
 简单创建搜索  
 代码示例  

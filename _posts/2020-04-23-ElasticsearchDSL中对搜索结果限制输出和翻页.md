@@ -5,7 +5,6 @@ permalink: '/2020/04/elasticsearch-dsl.html'
 comments: 1
 categories: Default
 tags: 搜索 Elasticsearch python Elasticsearch DSL 自建搜索
-comments: 1
 ---
 Elasticsearch DSL中对搜索结果限制输出和翻页  
 

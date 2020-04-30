@@ -5,7 +5,6 @@ permalink: '/2020/04/readthedocsgithubmarkdown.html'
 comments: 1
 categories: Default
 tags: 免费博客 mkdocs 开源 博客 markdown readthedocs github
-comments: 1
 ---
 虽然市面上有很多的免费博客或者说个人网站方案，不过不是广告，就是国内无法访问。  
 其实本人一直都比较喜欢blogger的，不过国内真的不好用啊。  
