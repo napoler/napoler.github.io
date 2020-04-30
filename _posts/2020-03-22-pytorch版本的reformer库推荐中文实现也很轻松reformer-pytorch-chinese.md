@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'pytorch版本的reformer库推荐 中文实现也很轻松reformer-pytorch-chinese'
+title: "pytorch版本的reformer库推荐 中文实现也很轻松reformer-pytorch-chinese"
 permalink: '/2020/03/pytorchreformer.html'
 comments: 1
 categories: Default

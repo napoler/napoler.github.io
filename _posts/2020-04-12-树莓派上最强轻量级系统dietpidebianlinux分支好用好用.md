@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '树莓派上最强轻量级系统dietpi debian linux分支 好用好用'
+title: "树莓派上最强轻量级系统dietpi debian linux分支 好用好用"
 permalink: '/2020/04/dietpi-debian-linux.html'
 comments: 1
 categories: Default
