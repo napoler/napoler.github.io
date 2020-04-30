@@ -1,0 +1,91 @@
+---
+layout: post
+title: 'Organic groups轻松打造Drupal小组Organic groups使用全过程'
+permalink: '/2014/04/organic-groupsdrupalorganic-groups_19.html'
+comments: 1
+categories: Default
+tags: Organic groups 小组
+comments: 1
+---
+<div style="background-color: white; font-family: Arial, Verdana, sans-serif; font-size: 14px; line-height: 17px; text-align: justify;">如今的web2.0浪潮实在令人心动,drupal具有强大的web2.0的特性,今天Napoler就和大家一起来分享下使用drupal&nbsp;Organic groups打造在线小组.</div>
+
+<div style="background-color: white; font-family: Arial, Verdana, sans-serif; font-size: 14px; line-height: 17px; text-align: justify;">首先我们当然是需要到官网下载Organic groups模块,之后放到sitesallmodules目录下,然后到后台admin/build/modules下启用</div>
+
+<blockquote style="background-color: white; border-left-color: rgb(204, 204, 204); border-left-style: solid; border-left-width: 5px; font-family: Arial, Verdana, sans-serif; font-size: 14px; margin-left: 1.5em; padding-left: 5px; text-align: justify;"><div style="line-height: 17px;"><span><span><span><span><strong><label for="edit-status-og"><span>Organic groups</span>&nbsp;</label></strong><span>6.x-2.1</span>&nbsp;<span>Enable users to create and manage groups. OG Views integration module is recommended for best experience.</span></span></span></span></span></div><div><span>Required by: Organic groups access control (<span>enabled</span>), Organic groups actions (<span>enabled</span>), Organic Groups Notifications (<span>disabled</span>), Organic groups Views integration (<span>disabled</span>)</span></div><div style="line-height: 17px;"><span></span></div><div><label for="edit-status-og-access"></label></div><div style="line-height: 17px;"><strong><span>Organic groups access control</span>&nbsp;</strong><span>6.x-2.1</span>&nbsp;<span>Enable access control for private posts and private groups.</span></div><div><span>Depends on: Organic groups (<span>enabled</span>)</span></div><div style="line-height: 17px;"><span></span></div><div><label for="edit-status-og-actions"></label></div><div style="line-height: 17px;"><strong><span>Organic groups actions</span>&nbsp;</strong><span>6.x-2.1</span>&nbsp;<span>Provides actions for use with Organic Groups and Trigger.</span></div><div><span>Depends on: Organic groups (<span>enabled</span>)</span></div><div style="line-height: 17px;"><span></span></div><div><label for="edit-status-og-notifications"></label></div><div style="line-height: 17px;"><strong><span>Organic Groups Notifications</span>&nbsp;</strong><span>6.x-2.1</span>&nbsp;<span>Allows users to receive notifications and subscribe to group content.</span></div><div><span>Depends on: Organic groups (<span>enabled</span>), Notifications (<span>missing</span>), Notifications_content (<span>missing</span>), Notifications_lite (<span>missing</span>), Messaging (<span>missing</span>), Token (<span>disabled</span>)</span></div><div style="line-height: 17px;"><span></span></div><div><label for="edit-status-og-views"></label></div><div style="line-height: 17px;"><strong><span>Organic groups Views integration</span>&nbsp;</strong><span>6.x-2.1</span>&nbsp;<span><strong>Highly recommended.</strong>. Use Views to search and display organic groups.</span></div><div><span>Depends on: Organic groups (<span>enabled</span>), Views (<span>disabled</span>)</span></div><div style="line-height: 17px;"></div></blockquote>
+
+<div style="background-color: white; font-family: Arial, Verdana, sans-serif; font-size: 14px; text-align: justify;">Napoler只安装了基本的几个模块,保存后.</div>
+
+<div style="background-color: white; font-family: Arial, Verdana, sans-serif; font-size: 14px; text-align: justify;">接下来到admin/content/types创建一个新的内容类型,用来创建小组</div>
+
+<blockquote style="background-color: white; border-left-color: rgb(204, 204, 204); border-left-style: solid; border-left-width: 5px; font-family: Arial, Verdana, sans-serif; font-size: 14px; margin-left: 1.5em; padding-left: 5px; text-align: justify;"><div><span></span></div></blockquote>
+
+<div style="line-height: 17px;"></div>
+
+<fieldset><legend><a href="http://127.0.0.1/og/?q=admin/content/node-type/og#" style="color: black; font-weight: bold; text-decoration: none;">Organic groups</a></legend><div><span></span></div></fieldset>
+
+<div style="line-height: 17px;"></div>
+
+<div><label>Organic groups usage:</label></div>
+
+<div style="line-height: 17px;"></div>
+
+<div><span></span></div>
+
+<div style="line-height: 17px;"></div>
+
+<div><label for="edit-og-content-type-usage-group">Group node(小组节点)</label></div>
+
+<div style="line-height: 17px;"><span></span></div>
+
+<div><label for="edit-og-content-type-usage-omitted">May not be posted into a group.(不发表到小组)</label></div>
+
+<div style="line-height: 17px;"><span></span></div>
+
+<div><label for="edit-og-content-type-usage-group-post-standard">Standard group post (typically only author may edit).(标准小组内容(只能作者可以编辑))</label></div>
+
+<div style="line-height: 17px;"><span></span></div>
+
+<div><label for="edit-og-content-type-usage-group-post-wiki">Wiki group post (any group member may edit).(维基小组内容(任何人可以使用))</label></div>
+
+<div style="line-height: 17px;"></div>
+
+<div>Specify how organic groups should treat nodes of this type. Nodes may behave as a group, as group posts, or may not participate in organic groups at all.</div>
+
+<div style="line-height: 17px;"><span></span></div>
+
+<div><label for="edit-og-max-groups">Group limit:</label></div>
+
+<div style="line-height: 17px;"></div>
+
+<div>If the usage is standard group post, specify the number of groups the nodes of this type may be posted into. Leave blank for no limit.</div>
+
+<div style="line-height: 17px;"></div>
+
+<div style="line-height: 17px;"></div>
+
+<div style="background-color: white; font-family: Arial, Verdana, sans-serif; font-size: 14px; text-align: justify;">ok,Napoler这里选择的是小组节点.就是用来创建小组.其他的选项我已经给注释出了相关的含义.除了创建一个内容类型外,其他的内容类型你可以设置为第二或低四个这样,这种类型的文章就可以发布到小组里了.</div>
+
+<div style="background-color: white; font-family: Arial, Verdana, sans-serif; font-size: 14px; text-align: justify;">好了,基本的小组功能已经有了,其他的视图功能,以后Napoler会继续分享的.</div>---
+layout: post
+title: 'Organic groups轻松打造Drupal小组Organic groups使用全过程'
+permalink: '/2014/04/organic-groupsdrupalorganic-groups.html'
+comments: 1
+categories: Default
+tags: Organic groups 小组
+comments: 1
+---
+<div style="background-color: white; font-family: Arial, Verdana, sans-serif; font-size: 14px; line-height: 17px; text-align: justify;">如今的web2.0浪潮实在令人心动,drupal具有强大的web2.0的特性,今天Napoler就和大家一起来分享下使用drupal&nbsp;Organic groups打造在线小组.</div>
+
+<div style="background-color: white; font-family: Arial, Verdana, sans-serif; font-size: 14px; line-height: 17px; text-align: justify;">首先我们当然是需要到官网下载Organic groups模块,之后放到sites\all\modules目录下,然后到后台admin/build/modules下启用</div>
+
+<blockquote style="background-color: white; border-left-color: rgb(204, 204, 204); border-left-style: solid; border-left-width: 5px; font-family: Arial, Verdana, sans-serif; font-size: 14px; margin-left: 1.5em; padding-left: 5px; text-align: justify;"><div style="line-height: 17px;"><span class="thmr_call"><span class="thmr_call"><span class="thmr_call"><span class="thmr_call"><strong><label for="edit-status-og"><span class="thmr_call">Organic groups</span>&nbsp;</label></strong><span class="thmr_call">6.x-2.1</span>&nbsp;<span class="thmr_call">Enable users to create and manage groups. OG Views integration module is recommended for best experience.</span></span></span></span></span></div><div class="admin-required"><span class="thmr_call">Required by: Organic groups access control (<span class="admin-enabled">enabled</span>), Organic groups actions (<span class="admin-enabled">enabled</span>), Organic Groups Notifications (<span class="admin-disabled">disabled</span>), Organic groups Views integration (<span class="admin-disabled">disabled</span>)</span></div><div style="line-height: 17px;"><span class="thmr_call"></span></div><div class="form-item"><label for="edit-status-og-access"></label></div><div style="line-height: 17px;"><strong><span class="thmr_call">Organic groups access control</span>&nbsp;</strong><span class="thmr_call">6.x-2.1</span>&nbsp;<span class="thmr_call">Enable access control for private posts and private groups.</span></div><div class="admin-dependencies"><span class="thmr_call">Depends on: Organic groups (<span class="admin-enabled">enabled</span>)</span></div><div style="line-height: 17px;"><span class="thmr_call"></span></div><div class="form-item"><label for="edit-status-og-actions"></label></div><div style="line-height: 17px;"><strong><span class="thmr_call">Organic groups actions</span>&nbsp;</strong><span class="thmr_call">6.x-2.1</span>&nbsp;<span class="thmr_call">Provides actions for use with Organic Groups and Trigger.</span></div><div class="admin-dependencies"><span class="thmr_call">Depends on: Organic groups (<span class="admin-enabled">enabled</span>)</span></div><div style="line-height: 17px;"><span class="thmr_call"></span></div><div class="form-item"><label for="edit-status-og-notifications"></label></div><div style="line-height: 17px;"><strong><span class="thmr_call">Organic Groups Notifications</span>&nbsp;</strong><span class="thmr_call">6.x-2.1</span>&nbsp;<span class="thmr_call">Allows users to receive notifications and subscribe to group content.</span></div><div class="admin-dependencies"><span class="thmr_call">Depends on: Organic groups (<span class="admin-enabled">enabled</span>), Notifications (<span class="admin-missing">missing</span>), Notifications_content (<span class="admin-missing">missing</span>), Notifications_lite (<span class="admin-missing">missing</span>), Messaging (<span class="admin-missing">missing</span>), Token (<span class="admin-disabled">disabled</span>)</span></div><div style="line-height: 17px;"><span class="thmr_call"></span></div><div class="form-item"><label for="edit-status-og-views"></label></div><div style="line-height: 17px;"><strong><span class="thmr_call">Organic groups Views integration</span>&nbsp;</strong><span class="thmr_call">6.x-2.1</span>&nbsp;<span class="thmr_call"><strong>Highly recommended.</strong>. Use Views to search and display organic groups.</span></div><div class="admin-dependencies"><span class="thmr_call">Depends on: Organic groups (<span class="admin-enabled">enabled</span>), Views (<span class="admin-disabled">disabled</span>)</span></div><div style="line-height: 17px;"></div></blockquote>
+
+<div class="admin-dependencies" style="background-color: white; font-family: Arial, Verdana, sans-serif; font-size: 14px; text-align: justify;">Napoler只安装了基本的几个模块,保存后.</div>
+
+<div class="admin-dependencies" style="background-color: white; font-family: Arial, Verdana, sans-serif; font-size: 14px; text-align: justify;">接下来到admin/content/types创建一个新的内容类型,用来创建小组</div>
+
+<blockquote style="background-color: white; border-left-color: rgb(204, 204, 204); border-left-style: solid; border-left-width: 5px; font-family: Arial, Verdana, sans-serif; font-size: 14px; margin-left: 1.5em; padding-left: 5px; text-align: justify;"><div class="admin-dependencies"><span class="thmr_call"><div style="line-height: 17px;"></div><fieldset><legend><a href="http://127.0.0.1/og/?q=admin/content/node-type/og#" style="color: black; font-weight: bold; text-decoration: none;">Organic groups</a></legend><div class="fieldset-wrapper"><span class="thmr_call"><div style="line-height: 17px;"></div><div class="form-item"><label>Organic groups usage:</label><div style="line-height: 17px;"></div><div class="form-radios"><span class="thmr_call"><div style="line-height: 17px;"></div><div class="form-item"><label for="edit-og-content-type-usage-group">Group node(小组节点)</label></div><div style="line-height: 17px;"><span class="thmr_call"></span></div><div class="form-item"><label for="edit-og-content-type-usage-omitted">May not be posted into a group.(不发表到小组)</label></div><div style="line-height: 17px;"><span class="thmr_call"></span></div><div class="form-item"><label for="edit-og-content-type-usage-group-post-standard">Standard group post (typically only author may edit).(标准小组内容(只能作者可以编辑))</label></div><div style="line-height: 17px;"><span class="thmr_call"></span></div><div class="form-item"><label for="edit-og-content-type-usage-group-post-wiki">Wiki group post (any group member may edit).(维基小组内容(任何人可以使用))</label></div><div style="line-height: 17px;"></div></span></div><div class="description">Specify how organic groups should treat nodes of this type. Nodes may behave as a group, as group posts, or may not participate in organic groups at all.</div></div><div style="line-height: 17px;"><span class="thmr_call"></span></div><div class="form-item"><label for="edit-og-max-groups">Group limit:</label><div style="line-height: 17px;"></div><div class="description">If the usage is standard group post, specify the number of groups the nodes of this type may be posted into. Leave blank for no limit.</div></div><div style="line-height: 17px;"></div></span></div></fieldset><div style="line-height: 17px;"></div></span></div></blockquote>
+
+<div class="description" style="background-color: white; font-family: Arial, Verdana, sans-serif; font-size: 14px; text-align: justify;">ok,Napoler这里选择的是小组节点.就是用来创建小组.其他的选项我已经给注释出了相关的含义.除了创建一个内容类型外,其他的内容类型你可以设置为第二或低四个这样,这种类型的文章就可以发布到小组里了.</div>
+
+<div class="description" style="background-color: white; font-family: Arial, Verdana, sans-serif; font-size: 14px; text-align: justify;">好了,基本的小组功能已经有了,其他的视图功能,以后Napoler会继续分享的.</div>
