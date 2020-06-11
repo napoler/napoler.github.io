@@ -72,7 +72,40 @@
         <li><a class="waves-effect" href="{{site.baseurl}}/链接"><i class="material-icons">email</i>链接</a></li>
 
         <li><div class="divider"></div></li>
-        <li><a class="waves-effect" href="{{site.github.repository_url}}/new/master/_posts"><i class="material-icons">edit</i>创建文章</a></li>
+        <script>
+// 获取当前日期
+var date = new Date();
+
+// 获取当前月份
+var nowMonth = date.getMonth() + 1;
+
+// 获取当前是几号
+var strDate = date.getDate();
+
+// 添加分隔符“-”
+var seperator = "-";
+
+// 对月份进行处理，1-9月在前面添加一个“0”
+if (nowMonth >= 1 && nowMonth <= 9) {
+   nowMonth = "0" + nowMonth;
+}
+
+// 对月份进行处理，1-9号在前面添加一个“0”
+if (strDate >= 0 && strDate <= 9) {
+   strDate = "0" + strDate;
+}
+
+// 最后拼接字符串，得到一个格式为(yyyy-MM-dd)的日期
+var nowDate = date.getFullYear() + seperator + nowMonth + seperator + strDate;
+console.log(nowDate)
+//           "%Y-%m-%d"
+//           ?filename=newfile.py&value=PUT%20YOUR%20CODE%20HERE
+          var name=nowDate."这里修改标题.md"
+          document.write('<li><a class="waves-effect" href="{{site.github.repository_url}}/new/master/_posts?filename='.name.'"><i class="material-icons">edit</i>创建文章</a></li>');
+        
+        </script>
+
+<!--         <li><a class="waves-effect" href="{{site.github.repository_url}}/new/master/_posts"><i class="material-icons">edit</i>创建文章</a></li> -->
         <li><a class="waves-effect" href="{{site.baseurl}}/帮助"><i class="material-icons">edit</i>帮助</a></li>
         
 
