@@ -1,0 +1,2 @@
+Sitemap: https://www.terrychan.org/sitemap.xml
+Disallow: /index/
