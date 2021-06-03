@@ -12,44 +12,7 @@
             "file": "_posts/2021-06-03-记事.md",
             "mode": "source"
           }
-        },
-        "group": "e91164f9ec80f495"
-      },
-      {
-        "id": "838a25d756f36832",
-        "type": "leaf",
-        "state": {
-          "type": "localgraph",
-          "state": {
-            "file": "_posts/2021-06-03-记事.md",
-            "options": {
-              "collapse-filter": true,
-              "search": "",
-              "localJumps": 1,
-              "localBacklinks": true,
-              "localForelinks": true,
-              "localInterlinks": true,
-              "showTags": true,
-              "showAttachments": false,
-              "hideUnresolved": false,
-              "collapse-color-groups": true,
-              "colorGroups": [],
-              "collapse-display": false,
-              "showArrow": false,
-              "textFadeMultiplier": 0,
-              "nodeSizeMultiplier": 1,
-              "lineSizeMultiplier": 1,
-              "collapse-forces": true,
-              "centerStrength": 0.518713248970312,
-              "repelStrength": 10,
-              "linkStrength": 1,
-              "linkDistance": 250,
-              "scale": 1,
-              "close": true
-            }
-          }
-        },
-        "group": "e91164f9ec80f495"
+        }
       }
     ],
     "direction": "vertical"
@@ -76,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#git",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,12 +56,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ee1793ef4a5ba918",
@@ -143,10 +106,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "838a25d756f36832",
+  "active": "a6c9f93653af749c",
   "lastOpenFiles": [
     "_posts/2021-06-03-记事.md",
-    "_posts/2020-11-14-修改git使用代理访问.md",
     "_posts/2021-03-20-kaggle数据集加载.md",
     "templates/demo.md",
     "_posts/2021-06-03 记事.md",
