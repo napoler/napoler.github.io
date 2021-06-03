@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_posts/2019-11-23-November23,2019at10:30PM.md",
-            "mode": "preview"
+            "file": "_posts/2021-06-03-记事.md",
+            "mode": "source"
           }
         }
       }
@@ -56,11 +56,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 614.5149993896484
+    "width": 486.01499938964844,
+    "collapsed": true
   },
   "right": {
     "id": "1f5fb2529c6742e1",
@@ -76,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2019-11-23-November23,2019at10:30PM.md",
+                "file": "_posts/2021-06-03-记事.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,19 +106,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2019-11-23-November23,2019at10:30PM.md"
+                "file": "_posts/2021-06-03-记事.md"
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 288.1750183105469,
+    "collapsed": true
   },
   "active": "3469d90ffb32cf29",
   "lastOpenFiles": [
+    "_posts/2021-06-03-记事.md",
     "_posts/2019-11-23-November23,2019at10:30PM.md",
     "_posts/2019-11-02-updateNovember03,2019at07:29AM.md",
     "_posts/2019-10-30-updateOctober31,2019at07:46AM.md",
@@ -125,7 +129,6 @@
     "_posts/2019-10-21-updateOctober22,2019at01:28AM.md",
     "_posts/2019-09-11-updateSeptember12,2019at12:25AM.md",
     "_posts/2019-09-11-updateSeptember12,2019at12:24AM.md",
-    "_posts/2019-09-27-updateSeptember27,2019at06:34PM.md",
-    "_posts/2019-07-03-updateJuly03,2019at03:55PM.md"
+    "_posts/2019-09-27-updateSeptember27,2019at06:34PM.md"
   ]
 }
