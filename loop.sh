@@ -17,5 +17,5 @@ do
    time=`date +'%G-%m-%d %H:%M:%S' -d '-1 days'`
    timedatectl set-time "$time"
    /bin/bash ./init.sh
-   # sleep 5m
+   sleep 5m
 done
