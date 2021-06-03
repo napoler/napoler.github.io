@@ -1,0 +1,131 @@
+{
+  "main": {
+    "id": "5b31f03f31fd4bf9",
+    "type": "split",
+    "children": [
+      {
+        "id": "9776905360a72bec",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "2020-11-25-SEO的艺术.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a6c16b1999b2064e",
+    "type": "split",
+    "children": [
+      {
+        "id": "b5063a95f101d81c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2c570f1ab5d9bd03",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "078488436ffe84c7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ffdfebfe4a5d90df",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 321.01499938964844
+  },
+  "right": {
+    "id": "5a62bc75e353230c",
+    "type": "split",
+    "children": [
+      {
+        "id": "563964017c67099b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4d7a5bd244e39160",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2020-11-25-SEO的艺术.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "172be9ad89319b26",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5920bb8536ee0d97",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2020-11-25-SEO的艺术.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "9776905360a72bec",
+  "lastOpenFiles": [
+    "2020-11-25-SEO的艺术.md",
+    "2021-03-20-kaggle数据集加载.md",
+    "2021-01-17-工具.md",
+    "Untitled.md",
+    "2019-04-28-linuxmint常用软件备份.md",
+    "2020-11-25-Python自然语言处理实战核心技术与算法.md",
+    "2012-06-17-Duck!.md",
+    "2012-06-07-绿的带色了.md",
+    "2012-06-05-2B时代.........md",
+    "2012-02-20-哈哈,开始用blogger了.md"
+  ]
+}
