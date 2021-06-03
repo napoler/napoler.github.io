@@ -1,16 +1,16 @@
 {
   "main": {
-    "id": "937641bff6d5e4f5",
+    "id": "d91e8c53fc07b324",
     "type": "split",
     "children": [
       {
-        "id": "3469d90ffb32cf29",
+        "id": "a6c9f93653af749c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_posts/2019-11-23-November23,2019at10:30PM.md",
-            "mode": "preview"
+            "file": "_posts/2021-06-03-记事.md",
+            "mode": "source"
           }
         }
       }
@@ -18,15 +18,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "b45438e5ed367bfd",
+    "id": "053368ca07109189",
     "type": "split",
     "children": [
       {
-        "id": "2d7e8cbbc12a1c66",
+        "id": "51a582da67228d2d",
         "type": "tabs",
         "children": [
           {
-            "id": "f705a4313fd98214",
+            "id": "4471db8740ed69b6",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -34,49 +34,51 @@
             }
           },
           {
-            "id": "42667599b5b07bc5",
+            "id": "05c9143ab5fc9b34",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#pidgin，QQ表情，linux，ubuntu",
-                "matchingCase": true,
-                "explainSearch": true,
+                "query": "tag:#git",
+                "matchingCase": false,
+                "explainSearch": false,
                 "collapseAll": false,
-                "extraContext": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "ef1cf684ed2a758c",
+            "id": "d7d8b91987d3d21c",
             "type": "leaf",
             "state": {
               "type": "starred",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 614.5149993896484
+    "width": 300,
+    "collapsed": true
   },
   "right": {
-    "id": "1f5fb2529c6742e1",
+    "id": "ee1793ef4a5ba918",
     "type": "split",
     "children": [
       {
-        "id": "0356e1c830a1ca3d",
+        "id": "0189f26dc3a90528",
         "type": "tabs",
         "children": [
           {
-            "id": "651bf1643df0fd75",
+            "id": "eff034ab7b8a5834",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2019-11-23-November23,2019at10:30PM.md",
+                "file": "_posts/2021-06-03-记事.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +90,7 @@
             }
           },
           {
-            "id": "7a85dff4f3bc35dc",
+            "id": "2137d44defbbf84e",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -97,35 +99,23 @@
                 "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "f3fb81d73529a510",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "_posts/2019-11-23-November23,2019at10:30PM.md"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "3469d90ffb32cf29",
+  "active": "a6c9f93653af749c",
   "lastOpenFiles": [
-    "_posts/2019-11-23-November23,2019at10:30PM.md",
-    "_posts/2019-11-02-updateNovember03,2019at07:29AM.md",
-    "_posts/2019-10-30-updateOctober31,2019at07:46AM.md",
-    "_posts/2019-10-30-updateOctober31,2019at07:47AM.md",
-    "_posts/2019-10-29-updateOctober30,2019at06:19AM.md",
-    "_posts/2019-10-21-updateOctober22,2019at01:28AM.md",
-    "_posts/2019-09-11-updateSeptember12,2019at12:25AM.md",
-    "_posts/2019-09-11-updateSeptember12,2019at12:24AM.md",
-    "_posts/2019-09-27-updateSeptember27,2019at06:34PM.md",
-    "_posts/2019-07-03-updateJuly03,2019at03:55PM.md"
+    "_posts/2021-06-03-记事.md",
+    "_posts/2020-11-14-修改git使用代理访问.md",
+    "_posts/2021-03-20-kaggle数据集加载.md",
+    "templates/demo.md",
+    "_posts/2021-06-03 记事.md",
+    "_posts/测试.md",
+    "_posts/2021-06-03.md",
+    "_posts/Untitled.md"
   ]
 }
