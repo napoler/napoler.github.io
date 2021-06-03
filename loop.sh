@@ -7,7 +7,7 @@
 #
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 export PATH
-p=100
+$p=100
 # if [ ! $1 ]; then  
 #    echo 'ERROR: Need to apply loop param'    
 #    exit  
