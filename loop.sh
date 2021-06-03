@@ -12,9 +12,10 @@ export PATH
 #    echo 'ERROR: Need to apply loop param'    
 #    exit  
 # fi  
-for i in $(seq 1 1000)
+for i in $(seq 300 1000000)
 do 
    time=`date +'%G-%m-%d %H:%M:%S' -d '-1 days'`
    timedatectl set-time "$time"
    /bin/bash ./init.sh
+   # sleep 5m
 done
