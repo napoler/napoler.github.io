@@ -7,6 +7,7 @@ tags: Default
 date: {{date}} {{time}}
 ---
 
+ {{date}} 记事
 
-# {{date}} 记事
+
 
