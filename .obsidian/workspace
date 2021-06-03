@@ -4,24 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "198b73e737458e75",
+        "id": "3469d90ffb32cf29",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "zk/2021-03-06-17-卡片.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "9afa93a2cf1cf58a",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "zk/2021-03-06-15-卡片.md",
-            "mode": "source"
+            "file": "README.md",
+            "mode": "preview"
           }
         }
       }
@@ -50,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#optuna",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -71,7 +60,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 614.5149993896484
   },
   "right": {
     "id": "1f5fb2529c6742e1",
@@ -87,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zk/2021-03-06-17-卡片.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "zk/2021-03-06-17-卡片.md"
+                "file": "README.md"
               }
             }
           }
@@ -126,17 +115,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "198b73e737458e75",
+  "active": "3469d90ffb32cf29",
   "lastOpenFiles": [
-    "zk/2021-03-06-17-卡片.md",
-    "zk/2021-03-06-15-卡片.md",
-    "zk/2021-03-06-14-卡片.md",
-    "zk/2021-03-06-16-卡片.md",
-    "_posts/2021-03-06-13-卡片.md",
-    "_posts/2021-03-06-13-.md",
-    "_posts/202106031302.md",
+    "README.md",
+    "about.md",
+    "categories.md",
+    "contact.md",
+    "projects.md",
+    "tags.md",
+    "测试更新.md",
     "_posts/2021-06-03-记事.md",
-    "_posts/202106031254.md",
-    "_posts/202106031255.md"
+    "_posts/2019-12-07-火狐都不能访问有道云笔记什么逻辑啊.md",
+    "_posts/2012-06-30-武當派人士表示今天與自己毫無干系.md"
   ]
 }

@@ -1,13 +1,13 @@
 ---
 layout: post
 comments: 1
-title:  {{date}} Zend
+title:  zk
 categories: Default
 tags: Default
-date: {{date}} {{time}}
+
 ---
 
- {{date}} 记事
+zk
 
 
 
