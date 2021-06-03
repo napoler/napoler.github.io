@@ -4,11 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "78780df82c69db1b",
+        "id": "198b73e737458e75",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "zk/2021-03-06-17-卡片.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "9afa93a2cf1cf58a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "zk/2021-03-06-15-卡片.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -57,8 +71,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1f5fb2529c6742e1",
@@ -74,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "zk/2021-03-06-17-卡片.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +114,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "zk/2021-03-06-17-卡片.md"
+              }
             }
           }
         ]
@@ -110,6 +126,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "78780df82c69db1b",
-  "lastOpenFiles": []
+  "active": "198b73e737458e75",
+  "lastOpenFiles": [
+    "zk/2021-03-06-17-卡片.md",
+    "zk/2021-03-06-15-卡片.md",
+    "zk/2021-03-06-14-卡片.md",
+    "zk/2021-03-06-16-卡片.md",
+    "_posts/2021-03-06-13-卡片.md",
+    "_posts/2021-03-06-13-.md",
+    "_posts/202106031302.md",
+    "_posts/2021-06-03-记事.md",
+    "_posts/202106031254.md",
+    "_posts/202106031255.md"
+  ]
 }
