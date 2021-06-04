@@ -21,6 +21,7 @@ execute(){
         exit 1
     fi
     git commit -m "Update $TIME"
+    git pull
     git push
 }
 
