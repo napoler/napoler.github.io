@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_posts/2021-06-03-记事.md",
+            "file": "_posts/2021-06-04-记事.md",
             "mode": "source"
           }
         }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2021-06-03-记事.md",
+                "file": "_posts/2021-06-04-记事.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2021-06-03-记事.md"
+                "file": "_posts/2021-06-04-记事.md"
               }
             }
           }
@@ -114,10 +114,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.1750183105469
+    "width": 288.1750183105469,
+    "collapsed": true
   },
   "active": "3469d90ffb32cf29",
   "lastOpenFiles": [
+    "_posts/2021-06-04-记事.md",
     "_posts/2021-06-03-记事.md",
     "_posts/Untitled.md",
     "_posts/2019-11-23-November23,2019at10:30PM.md",
@@ -126,7 +128,6 @@
     "_posts/2019-10-30-updateOctober31,2019at07:47AM.md",
     "_posts/2019-10-29-updateOctober30,2019at06:19AM.md",
     "_posts/2019-10-21-updateOctober22,2019at01:28AM.md",
-    "_posts/2019-09-11-updateSeptember12,2019at12:25AM.md",
-    "_posts/2019-09-11-updateSeptember12,2019at12:24AM.md"
+    "_posts/2019-09-11-updateSeptember12,2019at12:25AM.md"
   ]
 }
