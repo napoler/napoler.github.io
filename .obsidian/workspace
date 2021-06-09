@@ -60,8 +60,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0fe6c5219b70ab92",
@@ -119,6 +118,7 @@
   "active": "7e0c11254508800e",
   "lastOpenFiles": [
     "_posts/2021-06-08-记事.md",
+    "_posts/2021-06-09-记事.md",
     "_posts/2021-06-07-记事.md"
   ]
 }
