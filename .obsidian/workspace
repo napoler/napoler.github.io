@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "hp_metric",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -56,11 +56,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0fe6c5219b70ab92",
