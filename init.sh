@@ -16,7 +16,7 @@ init(){
 
 execute(){
     cd $CURDIR
-    giu pull
+    git pull
     git add .
     if [ $? -ne 0 ]; then
         exit 1
