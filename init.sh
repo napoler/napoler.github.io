@@ -11,7 +11,7 @@ export PATH
 init(){
     CURDIR=$(cd $(dirname ${BASH_SOURCE[0]}); pwd )
     TIME=`date "+%Y-%m-%d %H:%M:%S"`
-    echo $TIME >> $CURDIR/data.log
+    # echo $TIME >> $CURDIR/data.log
 }
 
 execute(){
