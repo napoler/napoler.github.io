@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_posts/2021-06-09-记事.md",
+            "file": "_posts/2021-06-10-记事.md",
             "mode": "source"
           }
         }
@@ -56,13 +56,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0fe6c5219b70ab92",
@@ -78,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2021-06-09-记事.md",
+                "file": "_posts/2021-06-10-记事.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2021-06-09-记事.md"
+                "file": "_posts/2021-06-10-记事.md"
               }
             }
           }
@@ -119,6 +117,7 @@
   },
   "active": "7e0c11254508800e",
   "lastOpenFiles": [
+    "_posts/2021-06-10-记事.md",
     "_posts/2021-06-09-记事.md",
     "_posts/2021-06-08-记事.md",
     "_posts/2021-06-07-记事.md"
