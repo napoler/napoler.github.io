@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "7e0c11254508800e",
+        "id": "23c0b6e14f8a4b3d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_posts/2021-06-13-记事.md",
+            "file": "_posts/2021-06-14-记事.md",
             "mode": "source"
           }
         }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2021-06-13-记事.md",
+                "file": "_posts/2021-06-14-记事.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2021-06-13-记事.md"
+                "file": "_posts/2021-06-14-记事.md"
               }
             }
           }
@@ -116,8 +116,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7e0c11254508800e",
+  "active": "23c0b6e14f8a4b3d",
   "lastOpenFiles": [
+    "_posts/2021-06-14-记事.md",
     "_posts/2021-06-13-记事.md",
     "_posts/2021-06-13-pytorch_lightning 配合Wandb示例.md",
     "_posts/2021-06-13-记事１.md",
