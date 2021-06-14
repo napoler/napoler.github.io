@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_posts/2021-06-14-记事.md",
+            "file": "_posts/2021-06-14-记事torchnlp acc计算中忽略pad.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2021-06-14-记事.md",
+                "file": "_posts/2021-06-14-记事torchnlp acc计算中忽略pad.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2021-06-14-记事.md"
+                "file": "_posts/2021-06-14-记事torchnlp acc计算中忽略pad.md"
               }
             }
           }
