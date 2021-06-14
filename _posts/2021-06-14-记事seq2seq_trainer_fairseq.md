@@ -40,8 +40,13 @@ seq2seq训练类
 
 
 
-损失计算
+#损失计算
+```
+#         https://github.com/huggingface/transformers/blob/783b0dd5891174922ff6bc9874350063bd9a0135/examples/legacy/seq2seq/seq2seq_trainer.py#L174
+#lprobs = torch.nn.functional.log_softmax(logits, dim=-1)
+#             loss, _ = self.loss_fn(lprobs, labels, self.args.label_smoothing, ignore_index=self.config.pad_token_id)
 
+```
 
 另外[fairseq](https://github.com/pytorch/fairseq)也是个不错的项目 一大堆可以参考的示例
 
