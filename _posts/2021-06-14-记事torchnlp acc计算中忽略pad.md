@@ -248,3 +248,6 @@ Get the accuracy token accuracy between two tensors.
 3.0
 >>> n_total
 4.0
+
+
+## : Cannot compare two tensors on different devices. Got: cpu and cuda:0
