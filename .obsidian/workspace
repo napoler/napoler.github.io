@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "23c0b6e14f8a4b3d",
+        "id": "0ea92c539a74e6cf",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_posts/2021-06-14-记事nbviewer.md",
+            "file": "_posts/2021-06-14-记事示例合集d2l-pytorch-slides.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#docker",
+                "query": "SLURM",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2021-06-14-记事nbviewer.md",
+                "file": "_posts/2021-06-14-记事示例合集d2l-pytorch-slides.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2021-06-14-记事nbviewer.md"
+                "file": "_posts/2021-06-14-记事示例合集d2l-pytorch-slides.md"
               }
             }
           }
@@ -115,17 +115,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "23c0b6e14f8a4b3d",
+  "active": "0ea92c539a74e6cf",
   "lastOpenFiles": [
+    "_posts/2021-06-14-记事.md",
     "_posts/2021-06-14-记事nbviewer.md",
+    "_posts/2021-06-13-记事.md",
+    "_posts/未打开文件.md",
+    "_posts/2019-11-23-知识抽取.md",
+    "_posts/2013-01-25-哈哈景德镇威武啊,一个only景德镇就能占据5-9and11-13位.Google....md",
+    "_posts/2021-06-14-记事深度学习Igel 旨在零代码构建深度学习模型的模块.md",
     "_posts/2019-11-23-树莓派常用docker总结.md",
     "_posts/2019-04-26-树莓派快速安装美杜莎美剧追剧神器.md",
-    "_posts/2021-06-14-记事深度学习Igel 旨在零代码构建深度学习模型的模块.md",
-    "_posts/2021-06-14-记事.md",
-    "_posts/2021-06-14-记事深度学习.md",
-    "_posts/2021-06-13-记事.md",
-    "_posts/2021-06-13-pytorch_lightning 配合Wandb示例.md",
-    "_posts/2021-06-13-记事１.md",
-    "_posts/未命名.md"
+    "_posts/2021-06-14-记事深度学习.md"
   ]
 }
