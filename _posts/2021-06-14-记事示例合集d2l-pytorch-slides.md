@@ -12,6 +12,11 @@ d2l-pytorch-slides
  收集了各种示例，完全 可以入门搬砖使用。
  
  [https://github.com/d2l-ai/d2l-pytorch-slides](https://github.com/d2l-ai/d2l-pytorch-slides)
+ 
+ # #fairseq
+
+Facebook AI Research Sequence-to-Sequence Toolkit written in Python.
+ [https://github.com/pytorch/fairseq](https://github.com/pytorch/fairseq)
 
 
 
