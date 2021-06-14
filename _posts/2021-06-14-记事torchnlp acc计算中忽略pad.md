@@ -251,3 +251,166 @@ Get the accuracy token accuracy between two tensors.
 
 
 ## : Cannot compare two tensors on different devices. Got: cpu and cuda:0
+
+
+
+
+```
+
+
+# train_loader=DataLoader(traindataset,batch_size=12, shuffle=True, )
+
+
+# https://medium.com/curation-corporation/fine-tuning-bart-for-abstractive-text-summarisation-with-fastai2-d7a2ad676a13
+
+class BartLoss(nn.Module):
+    def __init__(self):
+        self.criterion = torch.nn.CrossEntropyLoss()
+        
+    def forward(self, output, target):
+        x = F.log_softmax(output, dim=-1)
+        norm = (target != 1).data.sum()
+        print(x.contiguous().view(-1, x.size(-1)).shape, target.contiguous().view(-1).shape)
+        return self.criterion(x.contiguous().view(-1, x.size(-1)), target.contiguous().view(-1)) / norm
+    
+    
+    
+    
+
+class NlpMetrics(nn.Module):
+    def __init__(self,device="cpu"):
+        super().__init__()
+#         self.criterion = torch.nn.CrossEntropyLoss()  
+        self.device=device
+        self.is_scalar = lambda t: torch.is_tensor(t) and len(t.size()) == 0
+    def torch_equals_ignore_index(self,tensor, tensor_other, ignore_index=None):
+        """
+        Compute ``torch.equal`` with the optional mask parameter.
+
+        Args:
+            ignore_index (int, optional): Specifies a ``tensor`` index that is ignored.
+
+        Returns:
+            (bool) Returns ``True`` if target and prediction are equal.
+        """
+        if ignore_index is not None:
+            assert tensor.size() == tensor_other.size()
+            mask_arr = tensor.ne(ignore_index)
+            tensor = tensor.masked_select(mask_arr)
+            tensor_other = tensor_other.masked_select(mask_arr)
+
+        return torch.equal(tensor, tensor_other)    
+    
+    
+
+
+    def get_accuracy(self,targets, outputs, k=1, ignore_index=None):
+        """ Get the accuracy top-k accuracy between two tensors.
+
+        Args:
+          targets (1 - 2D :class:`torch.Tensor`): Target or true vector against which to measure
+              saccuracy
+          outputs (1 - 3D :class:`torch.Tensor`): Prediction or output vector
+          ignore_index (int, optional): Specifies a target index that is ignored
+
+        Returns:
+          :class:`tuple` consisting of accuracy (:class:`float`), number correct (:class:`int`) and
+          total (:class:`int`)
+
+        Example:
+
+            >>> import torch
+            >>> from torchnlp.metrics import get_accuracy
+            >>> targets = torch.LongTensor([1, 2, 3, 4, 5])
+            >>> outputs = torch.LongTensor([1, 2, 2, 3, 5])
+            >>> accuracy, n_correct, n_total = get_accuracy(targets, outputs, ignore_index=3)
+            >>> accuracy
+            0.8
+            >>> n_correct
+            4
+            >>> n_total
+            5
+        """
+        n_correct = 0.0
+        targets, outputs=targets.to(self.device), outputs.to(self.device)
+#         print(targets, outputs)
+        for target, output in zip(targets, outputs):
+            if not torch.is_tensor(target) or self.is_scalar(target):
+                target = torch.LongTensor([target]).to(self.device)
+
+            if not torch.is_tensor(output) or self.is_scalar(output):
+                output = torch.LongTensor([[output]]).to(self.device)
+
+            predictions = output.topk(k=min(k, len(output)), dim=0)[0]
+#             print(predictions)
+            for prediction in predictions:
+                if self.torch_equals_ignore_index(
+                        target.squeeze(), prediction.squeeze(), ignore_index=ignore_index):
+                    n_correct += 1
+                    break
+
+        return n_correct / len(targets), int(n_correct), len(targets)
+
+
+
+    def get_token_accuracy(self,targets, outputs, ignore_index=None):
+        """ Get the accuracy token accuracy between two tensors.
+
+        Args:
+          targets (1 - 2D :class:`torch.Tensor`): Target or true vector against which to measure
+              saccuracy
+          outputs (1 - 3D :class:`torch.Tensor`): Prediction or output vector
+          ignore_index (int, optional): Specifies a target index that is ignored
+
+        Returns:
+          :class:`tuple` consisting of accuracy (:class:`float`), number correct (:class:`int`) and
+          total (:class:`int`)
+
+        Example:
+
+            >>> import torch
+            >>> from torchnlp.metrics import get_token_accuracy
+            >>> targets = torch.LongTensor([[1, 1], [2, 2], [3, 3]])
+            >>> outputs = torch.LongTensor([[1, 1], [2, 3], [4, 4]])
+            >>> accuracy, n_correct, n_total = get_token_accuracy(targets, outputs, ignore_index=3)
+            >>> accuracy
+            0.75
+            >>> n_correct
+            3.0
+            >>> n_total
+            4.0
+         """
+        n_correct = 0.0
+        n_total = 0.0
+        targets, outputs=targets.to(self.device), outputs.to(self.device)
+        for target, output in zip(targets, outputs):
+            if not torch.is_tensor(target) or self.is_scalar(target):
+                target = torch.LongTensor([target])
+
+            if not torch.is_tensor(output) or self.is_scalar(output):
+                output = torch.LongTensor([[output]])
+
+            if len(target.size()) != len(output.size()):
+                prediction = output.max(dim=0)[0].view(-1)
+            else:
+                prediction = output
+
+            if ignore_index is not None:
+                mask = target.ne(ignore_index)
+                n_correct += prediction.eq(target).masked_select(mask).sum().item()
+                n_total += mask.sum().item()
+            else:
+                n_total += len(target)
+                n_correct += prediction.eq(target).sum().item()
+
+        return n_correct / n_total, n_correct, n_total
+
+Metrics=NlpMetrics(device="cuda")
+
+targets = torch.LongTensor([1, 2, 3, 4, 5]).cuda()
+outputs = torch.LongTensor([1, 2, 2, 3, 5]).cuda()
+accuracy, n_correct, n_total = Metrics.get_accuracy(targets, outputs, ignore_index=3)
+accuracy
+
+
+```
