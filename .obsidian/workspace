@@ -109,6 +109,18 @@
                 "file": "_posts/2021-06-15-记事.md"
               }
             }
+          },
+          {
+            "id": "f526bc4ef1fa144b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_posts/2021-06-15-记事.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
           }
         ]
       }
