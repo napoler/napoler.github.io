@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_posts/2021-06-14-记事torchnlp acc计算中忽略pad.md",
+            "file": "_posts/2021-06-15-记事.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2021-06-14-记事torchnlp acc计算中忽略pad.md",
+                "file": "_posts/2021-06-15-记事.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2021-06-14-记事torchnlp acc计算中忽略pad.md"
+                "file": "_posts/2021-06-15-记事.md"
               }
             }
           }
@@ -117,6 +117,8 @@
   },
   "active": "0ea92c539a74e6cf",
   "lastOpenFiles": [
+    "_posts/2021-06-15-记事.md",
+    "_posts/2021-06-14-记事torchnlp acc计算中忽略pad.md",
     "_posts/2021-06-14-记事.md",
     "_posts/2021-06-14-记事seq2seq_trainer_fairseq.md",
     "_posts/2021-06-14-记事nbviewer.md",
@@ -124,8 +126,6 @@
     "_posts/未打开文件.md",
     "_posts/2019-11-23-知识抽取.md",
     "_posts/2013-01-25-哈哈景德镇威武啊,一个only景德镇就能占据5-9and11-13位.Google....md",
-    "_posts/2021-06-14-记事深度学习Igel 旨在零代码构建深度学习模型的模块.md",
-    "_posts/2019-11-23-树莓派常用docker总结.md",
-    "_posts/2019-04-26-树莓派快速安装美杜莎美剧追剧神器.md"
+    "_posts/2021-06-14-记事深度学习Igel 旨在零代码构建深度学习模型的模块.md"
   ]
 }
