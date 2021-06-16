@@ -197,6 +197,41 @@ torch.save(new_model.state_dict(), "model.bin")
 
 https://pytorch-lightning.readthedocs.io/en/stable/common/weights_loading.html
 
+## # PyTorch Lightning 1.3- Lightning CLI, #PyTorch Profiler, Improved Early Stopping
+提前结束这个很重要，既然无望还不如及早结束来的好，还可以考虑挽救一番。
+![](img/1_AlhEr8Yn0g_96SHh5Xb8Mg.png)
+
+![](img/1_19ECRjG1mg7vcOrCPlsdwg.png)
+
+[https://medium.com/pytorch/pytorch-lightning-1-3-lightning-cli-pytorch-profiler-improved-early-stopping-6e0ffd8deb29](https://medium.com/pytorch/pytorch-lightning-1-3-lightning-cli-pytorch-profiler-improved-early-stopping-6e0ffd8deb29)
+
+
+在`LightningCLI`提供了快速解析输入参数的接口，读取配置文件，并获得训练您的模型尽快。
+
+
+![](img/1_CWetjVXqfPNjB8_2e3axMQ.png)
+
+## 训练器例程 .predict() \[BETA\] 和 .validate()
+
+添加`trainer.predict()`和`trainer.validate()`功能是人们期待已久的 Lightning 功能，现在终于支持了。
+
+即使在分布式设置中运行，您也可以轻松地从模型中获得预测。
+
+-   `trainer.predict()`依赖于`predict_step`返回预测
+-   `trainer.validate()``trainer.predict()`与您的验证数据相同，但没有`predict_step`要求。您可以使用它在训练开始之前或您喜欢的任何方式运行验证时期！
+
+[
+
+![](https://miro.medium.com/max/30/1*t76OY0GyO5rlxHSwp2e2FA.png?q=20)
+
+
+
+
+
+
+
+](https://gist.github.com/aribornstein/c7f84acf7a93cf241c18815012ae8a96)
+
 
 
 
