@@ -10,7 +10,8 @@ date: 2021-06-16 08:48
  2021-06-16 记事
  
  ## pytorch_lightning model_checkpoint
-
+pip install pytorch-lightning==1.3.5
+必须要说，版本固定真的很重要，不然的话华接口改了会出现很多错误
 
 ```python
 
@@ -55,6 +56,10 @@ trainer = pl.Trainer(
 
 ```
 
+
+保存加载数据
+
+https://pytorch-lightning.readthedocs.io/en/stable/common/weights_loading.html
 
 ## 深度学习代码中的 #随机种子
 深度学习网络模型中初始的权值参数通常都是初始化成随机数

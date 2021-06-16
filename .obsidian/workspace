@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_posts/2021-06-16-记事tuner.md",
+            "file": "_posts/2021-06-16-pytorch-lightning135检出点.md",
             "mode": "source"
           }
         }
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2021-06-16-记事tuner.md",
+                "file": "_posts/2021-06-16-pytorch-lightning135检出点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2021-06-16-记事tuner.md"
+                "file": "_posts/2021-06-16-pytorch-lightning135检出点.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2021-06-16-记事tuner.md",
+                "file": "_posts/2021-06-16-pytorch-lightning135检出点.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
