@@ -11,7 +11,7 @@ date: 2021-06-16 08:48
  
  ## pytorch_lightning model_checkpoint
 pip install pytorch-lightning==1.3.5
-必须要说，版本固定真的很重要，不然的话华接口改了会出现很多错误
+必须要说，版本固定真的很重要，不然的话接口改了会出现很多错误
 
 ```python
 
@@ -106,7 +106,7 @@ def compute_amount(epoch):
     
 pruning=ModelPruning("l1_unstructured",amount=compute_amount)
 
-wandb_logger = WandbLogger(project='bart-seq2seq-百度kgnotebook176d5104e8')
+wandb_logger = WandbLogger(project='bart-seqook176d5104e8')
 
 profilers=pl.profiler.profilers.SimpleProfiler()
 trainer = pl.Trainer(
@@ -131,7 +131,7 @@ trainer = pl.Trainer(
         gradient_clip_val=0.5,
         stochastic_weight_avg=True,# 随机加权平均https://pytorch-lightning.readthedocs.io/en/stable/advanced/training_tricks.html#stochastic-weight-averaging
         max_epochs=500,
-        #         logger=wandb_logger, #日志
+        logger=wandb_logger, #日志
         #     plugins=DDPPlugin(find_unused_parameters=True),
         accumulate_grad_batches=1, # 梯度累加
         #     overfit_batches=20, #过拟合一小部分训练数据 (float) 或一组批次 (int)。 小数据测试时候用它 
@@ -196,6 +196,26 @@ torch.save(new_model.state_dict(), "model.bin")
 保存加载数据
 
 https://pytorch-lightning.readthedocs.io/en/stable/common/weights_loading.html
+
+
+
+
+## 16-bit precision[](https://pytorch-lightning.readthedocs.io/en/stable/benchmarking/performance.html#bit-precision)
+16位精度和DDP一起会出错。
+Use 16-bit to decrease the memory consumption (and thus increase your batch size). On certain GPUs (V100s, 2080tis), 16-bit calculations are also faster. However, know that 16-bit and multi-processing (any DDP) can have issues. Here are some common problems.
+
+1.  [CUDA error: an illegal memory access was encountered](https://github.com/pytorch/pytorch/issues/21819).
+    
+    The solution is likely setting a specific CUDA, CUDNN, PyTorch version combination.
+    
+2.  `CUDA error: device-side assert triggered`. This is a general catch-all error. To see the actual error run your script like so:
+    
+
+\# won't see what the error is
+python main.py
+
+\# will see what the error is
+CUDA\_LAUNCH\_BLOCKING\=1 python main.py
 
 ## 深度学习代码中的 #随机种子
 深度学习网络模型中初始的权值参数通常都是初始化成随机数
