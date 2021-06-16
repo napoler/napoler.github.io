@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_posts/2021-06-16-记事WandbLogger.md",
+            "file": "_posts/2021-06-15-记事.md",
             "mode": "source"
           }
         }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2021-06-16-记事WandbLogger.md",
+                "file": "_posts/2021-06-15-记事.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2021-06-16-记事WandbLogger.md"
+                "file": "_posts/2021-06-15-记事.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2021-06-16-记事WandbLogger.md",
+                "file": "_posts/2021-06-15-记事.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,8 +130,8 @@
   },
   "active": "0ea92c539a74e6cf",
   "lastOpenFiles": [
-    "_posts/2021-06-16-记事.md",
     "_posts/2021-06-15-记事.md",
+    "_posts/2021-06-16-记事.md",
     "_posts/2021-06-16-pytorch-lightning135检出点.md",
     "_posts/2012-07-25-今天无聊刷机gtalk更新到支持视频版本,把自带的像机程序换掉,换成对gps支持更....md",
     "_posts/2014-04-19-复制原有博客部分内容完毕.md",
