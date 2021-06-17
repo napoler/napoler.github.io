@@ -61,7 +61,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0fe6c5219b70ab92",
@@ -130,6 +131,7 @@
   },
   "active": "0ea92c539a74e6cf",
   "lastOpenFiles": [
+    "_posts/2021-06-17-最简单的onhot函数.md",
     "_posts/2021-06-17-记事.md",
     "_posts/2012-10-25-igoogle要停止了百度首页则变得越来越像igoogle了.iGoogle有....md",
     "_posts/2021-06-16-lightning-flash.md",
@@ -138,7 +140,6 @@
     "_posts/2021-06-16-记事neptune.md",
     "_posts/2021-06-15-记事.md",
     "_posts/2012-07-25-今天无聊刷机gtalk更新到支持视频版本,把自带的像机程序换掉,换成对gps支持更....md",
-    "_posts/2014-04-19-复制原有博客部分内容完毕.md",
-    "_posts/2013-01-31-chrome威武,期待未来应用程序也是基于chrome平台的,到时候也就没必要担心什....md"
+    "_posts/2014-04-19-复制原有博客部分内容完毕.md"
   ]
 }
