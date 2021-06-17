@@ -78,7 +78,9 @@ early_stop_callback = EarlyStopping(
 checkpoint_callback = ModelCheckpoint(
 #     filename='/kaggle/working/{epoch}-{val_loss:.2f}',
     dirpath="checkpoints",
-    filename='{epoch:02d}-{step}-{val_loss:.2f}',
+ #   filename='{epoch:02d}-{step}-{val_loss:.2f}',
+ 	使用这种，不然的话会有等号无法保存
+	filename='sample-mnist-epoch{epoch:02d}-val_loss{val/loss:.2f}',
 #     filename='/kaggle/working/bart-out',
 #     save_last=True,
     verbose=True,
