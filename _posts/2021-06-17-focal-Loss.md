@@ -1,9 +1,9 @@
 ---
 layout: post
 comments: 1
-title:  Focal Loss 对于少数类别的样本赋予更高的权重。
+title:  使用Focal Loss损失函数解决样本不均衡问题 对于少数类别的样本赋予更高的权重。
 categories: Default
-tags: Default
+tags: pytorch 损失函数 样本不均衡
 date: 2021-06-17 13:05
 ---
 
@@ -91,3 +91,10 @@ class focal_loss(nn.Module):
         return loss
 
 ```
+
+
+
+# #评价指标
+
+
+计算[接收器操作特性曲线下的面积 (ROC AUC)](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Further_interpretations)。适用于二元、多标签和多类问题。在多类的情况下，将基于一对一的方法计算值。
