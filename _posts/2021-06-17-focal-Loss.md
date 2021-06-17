@@ -7,13 +7,13 @@ tags: Default
 date: 2021-06-17 13:05
 ---
 
- 2021-06-17 记事
 
 
 
 ## Focal Loss的定义
 
 理论定义:Focal Loss可以看作是一个损失函数，它使容易分类的样本权重降低，而对难分类的样本权重增加。
+Focal Loss基本上是交叉熵损失的延伸。它足够具体地处理阶级不平衡的问题。
 
 https://github.com/yatengLG/Focal-Loss-Pytorch
 https://pypi.org/project/focal-loss-torch/
