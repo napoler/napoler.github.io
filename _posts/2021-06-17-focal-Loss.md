@@ -98,3 +98,31 @@ class focal_loss(nn.Module):
 
 
 计算[接收器操作特性曲线下的面积 (ROC AUC)](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Further_interpretations)。适用于二元、多标签和多类问题。在多类的情况下，将基于一对一的方法计算值。
+
+https://torchmetrics.readthedocs.io/en/latest/references/modules.html#auroc
+
+二分类示例
+
+>>> from torchmetrics import AUROC
+>>> preds = torch.tensor([0.13, 0.26, 0.08, 0.19, 0.34])
+>>> target = torch.tensor([0, 0, 1, 1, 1])
+>>> auroc = AUROC(pos_label=1)
+>>> auroc(preds, target)
+tensor(0.5000)
+
+多分类示例
+
+>>> preds = torch.tensor([[0.90, 0.05, 0.05],
+...                       [0.05, 0.90, 0.05],
+...                       [0.05, 0.05, 0.90],
+...                       [0.85, 0.05, 0.10],
+...                       [0.10, 0.10, 0.80]])
+>>> target = torch.tensor([0, 1, 1, 2, 2])
+>>> auroc = AUROC(num_classes=3)
+>>> auroc(preds, target)
+tensor(0.7778)
+
+
+除此之外还有很多
+
+https://torchmetrics.readthedocs.io/en/latest/references/modules.html#auroc
