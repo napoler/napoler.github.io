@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_posts/2021-06-18-09377-卡片.md",
-            "mode": "source"
+            "file": "_posts/2021-06-17-sk才是大成者，深度学习中 还能屹立不倒.md",
+            "mode": "preview"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#保存模型",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -60,8 +60,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0fe6c5219b70ab92",
@@ -77,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2021-06-18-09377-卡片.md",
+                "file": "_posts/2021-06-17-sk才是大成者，深度学习中 还能屹立不倒.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2021-06-18-09377-卡片.md"
+                "file": "_posts/2021-06-17-sk才是大成者，深度学习中 还能屹立不倒.md"
               }
             }
           },
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2021-06-18-09377-卡片.md",
+                "file": "_posts/2021-06-17-sk才是大成者，深度学习中 还能屹立不倒.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,12 +129,12 @@
   },
   "active": "0ea92c539a74e6cf",
   "lastOpenFiles": [
-    "_posts/2021-06-18-09377-卡片.md",
-    "_posts/2021-06-17-223331-卡片.md",
-    "_posts/2021-06-18-091016-卡片.md",
     "_posts/2021-06-17-sk才是大成者，深度学习中 还能屹立不倒.md",
-    "_posts/2021-06-18-记事.md",
+    "_posts/2021-06-17-223331-卡片.md",
+    "_posts/2021-17-06-22-not3.md",
     "_posts/2021-06-17-记事.md",
+    "_posts/2021-06-16-lightning-flash.md",
+    "zk/2021-17-06-22-卡片.md",
     "_posts/2021-06-15-记事.md",
     "_posts/2021-06-16-pytorch-lightning135检出点.md",
     "_posts/2021-06-17-最简单的onhot函数.md",
