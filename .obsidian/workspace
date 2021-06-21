@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_posts/2021-06-20-记事.md",
+            "file": "_posts/2021-06-21-094736-卡片.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2021-06-20-记事.md",
+                "file": "_posts/2021-06-21-094736-卡片.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2021-06-20-记事.md"
+                "file": "_posts/2021-06-21-094736-卡片.md"
               }
             }
           },
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2021-06-20-记事.md",
+                "file": "_posts/2021-06-21-094736-卡片.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,6 +129,8 @@
   },
   "active": "0ea92c539a74e6cf",
   "lastOpenFiles": [
+    "_posts/2021-06-21-094736-卡片.md",
+    "_posts/2021-06-21-记事.md",
     "_posts/2021-06-20-记事.md",
     "_posts/2021-06-19-记事.md",
     "_posts/2021-06-17-23385-卡片.md",
@@ -136,8 +138,6 @@
     "_posts/2021-06-17-sk才是大成者，深度学习中 还能屹立不倒.md",
     "_posts/2021-06-17-223331-卡片.md",
     "_posts/2021-17-06-22-not3.md",
-    "_posts/2021-06-17-记事.md",
-    "_posts/2021-06-16-lightning-flash.md",
-    "zk/2021-17-06-22-卡片.md"
+    "_posts/2021-06-17-记事.md"
   ]
 }
