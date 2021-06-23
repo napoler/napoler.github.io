@@ -1,13 +1,13 @@
 ---
 layout: post
 comments: 1
-title:  kaggle中optuna可视化plotly不显示
+title:  解决kaggle中optuna可视化plotly图表不显示
 categories: Default
 tags: Default
 date: 2021-06-22 21:17
 ---
 
-kaggle中optuna可视化plotly不显示
+解决kaggle中optuna可视化plotly图表不显示
 
 
 ```python
