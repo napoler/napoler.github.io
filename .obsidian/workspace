@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_posts/2021-06-20-记事.md",
-            "mode": "preview"
+            "file": "_posts/2021-06-28-文档级别的文本标注任务.md",
+            "mode": "source"
           }
         }
       }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2021-06-20-记事.md",
+                "file": "_posts/2021-06-28-文档级别的文本标注任务.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2021-06-20-记事.md"
+                "file": "_posts/2021-06-28-文档级别的文本标注任务.md"
               }
             }
           },
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2021-06-20-记事.md",
+                "file": "_posts/2021-06-28-文档级别的文本标注任务.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,6 +129,8 @@
   },
   "active": "0ea92c539a74e6cf",
   "lastOpenFiles": [
+    "_posts/2021-06-28-文档级别的文本标注任务.md",
+    "_posts/2021-06-28-pydicom.md",
     "_posts/2021-06-20-记事.md",
     "_posts/2021-06-19-记事.md",
     "_posts/2021-06-28-记事.md",
@@ -136,8 +138,6 @@
     "_posts/2021-06-26-记事.md",
     "_posts/2021-06-24-json.md",
     "_posts/2021-06-24-记事.md",
-    "_posts/2021-06-24-uvicorn.md",
-    "_posts/2021-06-23-记事.md",
-    "_posts/2021-06-22-optuna可视化plotly.md"
+    "_posts/2021-06-24-uvicorn.md"
   ]
 }
