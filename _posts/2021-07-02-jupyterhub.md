@@ -20,3 +20,12 @@ date: 2021-07-02 15:08
 https://jupyterhub.readthedocs.io/en/stable/quickstart-docker.html
 
 https://github.com/jupyterhub/jupyterhub/issues/2989
+
+
+
+
+
+
+- ```bash
+conda pack -n my_env -o out_name.tar.gz
+```
