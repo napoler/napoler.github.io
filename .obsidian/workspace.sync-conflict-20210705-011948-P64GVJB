@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_posts/2021-06-16-pytorch-lightning135检出点.md",
+            "file": "_posts/2021-07-03-sklearn波士頓.md",
             "mode": "source"
           }
         }
@@ -39,9 +39,9 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#nlp",
+                "query": "tag:#保存模型",
                 "matchingCase": true,
-                "explainSearch": true,
+                "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
@@ -56,13 +56,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0fe6c5219b70ab92",
@@ -78,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2021-06-16-pytorch-lightning135检出点.md",
+                "file": "_posts/2021-07-03-sklearn波士頓.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2021-06-16-pytorch-lightning135检出点.md"
+                "file": "_posts/2021-07-03-sklearn波士頓.md"
               }
             }
           },
@@ -116,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2021-06-16-pytorch-lightning135检出点.md",
+                "file": "_posts/2021-07-03-sklearn波士頓.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,15 +129,15 @@
   },
   "active": "0ea92c539a74e6cf",
   "lastOpenFiles": [
-    "_posts/2021-06-16-记事.md",
-    "_posts/2012-07-25-今天无聊刷机gtalk更新到支持视频版本,把自带的像机程序换掉,换成对gps支持更....md",
-    "_posts/2021-06-15-记事.md",
-    "_posts/2014-04-19-复制原有博客部分内容完毕.md",
-    "_posts/2013-01-31-chrome威武,期待未来应用程序也是基于chrome平台的,到时候也就没必要担心什....md",
-    "_posts/2012-06-06-把垃圾食品塞到肚子里然后再变成垃圾.md",
-    "_posts/2020-05-05-the-post-6358.md",
-    "_posts/2013-01-07-It'snotrocketscience!.md",
-    "_posts/2012-06-30-*1YearLater:Whatlessonshaveyoulearnt....md",
-    "_posts/2019-02-25-google分析国内还是不要用了吧.md"
+    "_posts/2021-07-03-sklearn波士頓.md",
+    "_posts/2021-07-03-记事.md",
+    "_posts/2021-07-04-记事.md",
+    "_posts/2021-07-02-jupyterhub.md",
+    "_posts/2021-07-02-记事.md",
+    "_posts/2021-06-28-记事.md",
+    "_posts/2021-06-28-文档级别的文本标注任务.md",
+    "_posts/2021-06-28-pydicom.md",
+    "_posts/2021-06-20-记事.md",
+    "_posts/2021-06-19-记事.md"
   ]
 }
