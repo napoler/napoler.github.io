@@ -1,0 +1,20 @@
+{
+  "attachmentFolderPath": "img",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "_posts",
+  "showFrontmatter": true,
+  "showLineNumber": true,
+  "communityPluginSortOrder": "download",
+  "promptDelete": false,
+  "fileSortOrder": "byModifiedTime",
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
+  "defaultViewMode": "preview",
+  "newLinkFormat": "absolute",
+  "readableLineLength": false,
+  "strictLineBreaks": false,
+  "useMarkdownLinks": true,
+  "vimMode": false,
+  "foldIndent": true,
+  "foldHeading": true
+}
