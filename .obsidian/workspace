@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_posts/2021-07-28-Linux解压tar.gz和tar.bz2的命令.md",
+            "file": "_posts/2021-08-07-记事Transformer.md",
             "mode": "source"
           }
         }
@@ -52,6 +52,14 @@
             "id": "c943e5ec58aa9c2d",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "6f35548da87268e7",
+            "type": "leaf",
+            "state": {
               "type": "starred",
               "state": {}
             }
@@ -76,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2021-07-28-Linux解压tar.gz和tar.bz2的命令.md",
+                "file": "_posts/2021-08-07-记事Transformer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -91,33 +99,32 @@
             "id": "7e5f49b47fcf8d57",
             "type": "leaf",
             "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "b9442ffcb8cd27a5",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "file": "_posts/2021-07-28-Linux解压tar.gz和tar.bz2的命令.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "f526bc4ef1fa144b",
             "type": "leaf",
             "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "_posts/2021-07-28-Linux解压tar.gz和tar.bz2的命令.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "0893da11861c2956",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
             }
           }
         ]
@@ -129,6 +136,8 @@
   },
   "active": "0ea92c539a74e6cf",
   "lastOpenFiles": [
+    "_posts/2021-08-07-记事.md",
+    "_posts/2021-07-28-Linux解压tar.gz和tar.bz2的命令.md",
     "_posts/2021-07-28-记事.md",
     "_posts/2021-07-20-记事.md",
     "_posts/2021-07-20-记事pypi打包项目上传项目.md",
@@ -136,8 +145,6 @@
     "_posts/2021-07-12-记事.md",
     "_posts/2021-07-07-repr.md",
     "_posts/2021-07-10-记事.md",
-    "_posts/2021-07-07-记事.md",
-    "_posts/2021-07-06-记事PyTorchLightningconfigure_optimizers.md",
-    "_posts/2021-07-06-记事.md"
+    "_posts/2021-07-07-记事.md"
   ]
 }
