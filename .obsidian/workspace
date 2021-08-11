@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_posts/2021-08-07-记事Transformer.md",
-            "mode": "source"
+            "file": "_posts/2021-08-11-Performer启用自回归.md",
+            "mode": "preview"
           }
         }
       }
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2021-08-07-记事Transformer.md",
+                "file": "_posts/2021-08-11-Performer启用自回归.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,32 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_posts/2021-08-11-Performer启用自回归.md"
+              }
+            }
+          },
+          {
+            "id": "ad81d1a514c22d73",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_posts/2021-08-11-Performer启用自回归.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "03794f480661f224",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
             }
           }
         ]
@@ -136,15 +161,15 @@
   },
   "active": "0ea92c539a74e6cf",
   "lastOpenFiles": [
-    "_posts/2021-08-07-记事.md",
-    "_posts/2021-07-28-Linux解压tar.gz和tar.bz2的命令.md",
-    "_posts/2021-07-28-记事.md",
-    "_posts/2021-07-20-记事.md",
-    "_posts/2021-07-20-记事pypi打包项目上传项目.md",
+    "_posts/2021-08-11-Performer启用自回归.md",
     "_posts/2021-07-10-Kite.md",
+    "_posts/2021-07-20-记事.sync-conflict-20210720-010808-P64GVJB.md",
+    "_posts/2021-07-12-记事.sync-conflict-20210712-053514-P64GVJB.md",
+    "_posts/2021-07-20-记事.md",
     "_posts/2021-07-12-记事.md",
-    "_posts/2021-07-07-repr.md",
-    "_posts/2021-07-10-记事.md",
-    "_posts/2021-07-07-记事.md"
+    "_posts/2021-07-28-记事.md",
+    "_posts/2021-08-11-记事.md",
+    "_posts/2021-08-07-记事Transformer.md",
+    "_posts/2021-08-07-记事.md"
   ]
 }
